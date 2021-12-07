@@ -53,6 +53,7 @@ class AllCustom : Fragment() {
                 adapter = MyCustomAdapter(context, response.body() as Custom)
                 adapter.notifyDataSetChanged()
                 recyclerMovieList.adapter = adapter
+
             }
         })
     }
